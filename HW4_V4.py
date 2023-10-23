@@ -4,9 +4,6 @@
 # In[2]:
 
 
-pip install dash
-
-
 # In[3]:
 
 
