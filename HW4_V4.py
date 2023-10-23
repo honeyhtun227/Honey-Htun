@@ -21,6 +21,7 @@ dropdown_options = sorted(data1['ASGS_remoteness'].unique())
 
 dropdown_options_list = [{'label': option, 'value': option} for option in dropdown_options]
 app = Dash(__name__)
+server = app.server
 
 app.layout = html.Div([
     dcc.Dropdown(
